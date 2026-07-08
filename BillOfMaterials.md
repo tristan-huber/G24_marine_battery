@@ -2,4 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|12.8V 100Ah battery|1|$185.00|[Amazon](https://www.amazon.com/dp/B0DZXDWJXR?tag=maslowcnc01-20)|
+|Total: |1|$185.00| |
