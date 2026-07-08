@@ -1,13 +1,108 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-21801",
-    "name": "G24_marine_battery",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "Inches",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-21801",
+  "name": "G24_marine_battery",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-21802",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.30078125,
+      "y": 0.24188311688311687,
+      "uniqueID": "id-21804",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10.3
+        },
+        {
+          "name": "y length",
+          "ioValue": 6.8,
+          "currentEquation": "6.8"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5320312500000001,
+      "y": 0.36038961038961037,
+      "uniqueID": "id-21808",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 8.9,
+          "currentEquation": "8.9"
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.36875,
+      "y": 0.6282467532467533,
+      "uniqueID": "id-21812",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 0.5,
+          "currentEquation": "0.5"
+        }
+      ]
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.16953125,
+      "y": 0.3279220779220779,
+      "uniqueID": "id-21815",
+      "name": "Height",
+      "value": 8.9
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.13984375000000002,
+      "y": 0.21103896103896103,
+      "uniqueID": "id-21817",
+      "name": "width",
+      "value": 8.9
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.10234375,
+      "y": 0.48376623376623373,
+      "uniqueID": "id-21819",
+      "name": "PinInset",
+      "value": 1
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-21804",
+      "ap2ID": "id-21808"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-21815",
+      "ap2ID": "id-21808"
+    }
+  ],
+  "unitsKey": "Inches",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
