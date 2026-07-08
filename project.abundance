@@ -239,6 +239,43 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Add-BOM-Tag",
+      "x": 0.821875,
+      "y": 0.40584415584415584,
+      "uniqueID": "id-21869",
+      "name": "Add BOM Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Item Name",
+          "ioValue": "12.8V 100Ah battery",
+          "currentEquation": "12.8V 100Ah battery"
+        },
+        {
+          "name": "Number Needed",
+          "ioValue": 1
+        },
+        {
+          "name": "Cost (USD)",
+          "ioValue": 185
+        },
+        {
+          "name": "Source Link",
+          "ioValue": "https://www.amazon.com/dp/B0DZXDWJXR",
+          "currentEquation": "https://www.amazon.com/dp/B0DZXDWJXR"
+        }
+      ],
+      "BOMitem": {
+        "BOMitemName": "12.8V 100Ah battery",
+        "numberNeeded": 1,
+        "costUSD": 185,
+        "source": "https://www.amazon.com/dp/B0DZXDWJXR"
+      }
     }
   ],
   "allConnectors": [
@@ -283,9 +320,9 @@
       "ap2ID": "id-21849"
     },
     {
-      "ap2Name": "number or geometry",
+      "ap2Name": "geometry",
       "ap1ID": "id-21834",
-      "ap2ID": "id-21802"
+      "ap2ID": "id-21869"
     },
     {
       "ap2Name": "geometry",
@@ -311,6 +348,11 @@
       "ap2Name": "Shape 3",
       "ap1ID": "id-21863",
       "ap2ID": "id-21834"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-21869",
+      "ap2ID": "id-21802"
     }
   ],
   "unitsKey": "Inches",
